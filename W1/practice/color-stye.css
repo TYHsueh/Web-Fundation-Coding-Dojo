@@ -1,0 +1,13 @@
+#game {
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+    background:linear (yellow 20%, black);
+    /*background: linear-gradient(#4b5155, #ffbaee 80%, #e0dd23 50%);*/
+}
+#player {
+    margin-top: 140px;
+    margin-left: 50px;
+}
+/* Don't worry about knowing what all of these properties are yet */
+/* we'll come back to them later, we promise! */

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./practice.css">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alert('hello')">Hit here!</button>
+    <div class="alert">
+        <div class="block" onmouseover="over(this)" onmouseout="out(this)"></div>
+        <div class="block" onmouseover="over(this)" onmouseout="out(this)"></div>
+        <div class="block" onmouseover="over(this)" onmouseout="out(this)"></div>
+        <div class="block" onmouseover="over(this)" onmouseout="out(this)"></div>
+    </div>
+    <div class="shadow">
+        <div class="block" onmouseover="addshadow(this)" onmouseout="noshadow(this)">b2</div>
+        <div class="block" onmouseover="addshadow(this)" onmouseout="noshadow(this)">b2</div>
+        <div class="block" onmouseover="addshadow(this)" onmouseout="noshadow(this)">b2</div>
+        <div class="block" onmouseover="addshadow(this)" onmouseout="noshadow(this)">b2</div>
+    </div>
+    <div class="color">
+        <div class="block" onmouseover="colorpink(this)" onmouseout="coloryellow(this)">b3</div>
+        <div class="block" onmouseover="colorpink(this)" onmouseout="coloryellow(this)">b3</div>
+        <div class="block" onmouseover="colorpink(this)" onmouseout="coloryellow(this)">b3</div>
+        <div class="block" onmouseover="colorpink(this)" onmouseout="coloryellow(this)">b3</div>
+    </div>
+
+    <div class="onchange">
+        <label for="lunch"> My lunch is</label>
+        <select name="lunch" id="lunch" onchange="chooselunch(this)">
+            <option value="Taco">Taco</option>
+            <option value="Pasta">Pasta</option>
+            <option value="Sushi">Sushi</option>
+        </select>
+    </div>
+    <div>
+        <div class="card">
+            <p>Hello my name is:</p>
+            <h3 id="name-tag">Example</h3>
+        </div>
+            
+        <input type="text" value="Example" oninput="setName(this)">
+        
+    </div>
+    <div class="pawtest">
+        <label for="test"><img class="paw" src="./images/paw-light.png" alt="paw"></label>
+        <select name="test" id="test">
+            <option value="aaa">aaa</option>
+            <option value="bbb">bbb</option>
+        </select>
+    </div>
+
+
+
+
+    <script src="./practice.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+/*simple reset*/
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* top nav bar*/
+.top-nav{
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:white;
+    height: 50px;
+    padding: 10px;
+}
+.top-nav-left{
+    display: flex;
+}
+.top-nav-left h1{
+margin-right: 10px;
+}
+.top-list{
+    display:flex;
+    font-size: 15px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.top-list a{
+    color:white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.top-btn{
+    background-color: rgb(115, 177, 228);
+    color:white;
+    height: 30px;
+    width: 90px;
+}
+/* bottom part*/
+.bottom{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    padding-top: 20px;
+}
+/*left column*/
+.left-col{
+    width: 400px;
+    margin-right: 20px;
+    padding:10px;
+}
+/*card*/
+.left-card{
+    border:3px solid rgb(170, 170, 170);
+    margin-bottom: 20px;
+}
+.cardusericon{
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 20px;
+}
+.cardtop{
+    background-color: rgb(140, 195, 240);
+    height: 60px;
+}
+.cardicon{
+    height: 20px;
+    margin-right: 5px;
+}
+
+.cardbottom{
+    background-color: white;
+    height: fit-content;
+    padding: 45px 20px 20px 20px;
+}
+p,.plocation, .cardlink{
+    display:flex;
+    align-items: center;
+    margin-top:10px;
+}
+.cardlink a{
+    font-size: 15px;
+    color:blue;
+    display: flex;
+    align-items: center;
+}
+.cardcontent{
+    margin:10px 0px;
+}
+/*education*/
+.left-education{
+    border:3px solid rgb(170, 170, 170);
+}
+.educationtop{
+    height: 30px;
+    background-color: rgb(85, 84, 84);
+    color: white;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.educationbottom{
+    height: fit-content;
+    padding-left: 20px;
+}
+.p1{
+    font-size: larger;
+}
+.p2{
+    font-size: smaller;
+    color:gray;
+}
+.p3{
+    font-size: smaller;
+}
+/*right column*/
+.right-col{
+    width: 200px;
+    margin-left:20px ;
+    padding:10px;
+}
+/* friend request*/
+.request{
+    border:3px solid rgb(170, 170, 170);
+    margin-bottom: 20px;
+}
+.requesttop{
+    height:30px;
+    background-color:rgb(85, 84, 84) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: small;
+}
+.circle2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cr{
+    color:white;
+}
+.requestbottom{
+    height: fit-content;
+    padding:10px;
+}
+/*.todd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}*/
+.peopleimg{
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/*li .okno{
+    display: flex;
+    align-items: center;
+}*/
+.rpeople{
+    display:flex;
+    align-items: center;
+}
+.ok,.no{
+    height: 25px;
+}
+.okno{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*your connections*/
+.yourcon{
+    border: 3px solid rgb(170, 170, 170);
+}
+.yourcontop{
+    height: 30px;
+    background-color: rgb(85, 84, 84);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: small;
+}
+.circle500{
+    background-color: rgb(233, 233, 233);
+    height: 20px;
+    width: 50px;
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yc{
+    color:white
+}
+.yourconbottom{
+    height: fit-content;
+    padding:10px;
+}
+ul{
+    list-style: none;
+}
+li{
+    
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+.viewmore{
+    height: 20px;
+    border-top:3px solid rgb(170, 170, 170);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.viewmore a{
+    font-size: 15px;
+    color:blue;
+}

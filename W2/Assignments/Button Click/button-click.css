@@ -1,0 +1,108 @@
+/*css reset*/
+*{
+    padding:0px;
+    margin:0px;
+}
+/*make container to stay in the center of page*/
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 900px;
+    font-family:'Roboto', sans-serif;
+}
+.topnav{
+    height: 50px;
+    background-color: rgb(184, 184, 184);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 40px;
+}
+.topbtn{
+    background-color: rgb(31, 31, 221);
+    color:white;
+    height:fit-content;
+    padding:3px;
+    box-shadow: 2px 2px black;
+}
+/*bottom part*/
+
+.bottom{
+    display:flex;
+    vertical-align: top;
+    justify-content: space-between;
+}
+.left{
+    flex:2;
+}
+.right{
+    flex:1;
+}
+/*bottom left*/
+.lefttop, .leftbottom{
+    border:3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:30px 30px 30px 0px;
+    padding: 20px;
+}
+.ltl, .lbl{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+span{
+    font-style: italic;
+}
+.leftp{
+    width: 220px;
+    margin-left: 30px;
+}
+.leftbtn{
+    background-color: yellow;
+    height:fit-content;
+    padding:3px;
+    box-shadow: 2px 2px black;
+}
+
+/*.leftbottom{
+    border: 3px solid black;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:30px 30px 30px 0px;  
+}
+.lbl{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+*/
+/*right*/
+.righttop{
+    
+    border: 3px solid black;
+    margin: 30px 0px 30px 30px;
+    height: 150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:20px;
+}
+
+.rbtn{
+    height: 30px;
+    width: fit-content;
+    padding:5px;
+    background-color: rgb(60, 196, 60);
+    box-shadow: 3px 3px black;
+}

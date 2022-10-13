@@ -1,0 +1,27 @@
+button{
+    margin: 20px;
+}
+
+.alert, .shadow,.color{
+    display: flex;
+}
+
+.block{
+    height: 50px;
+    width:50px;
+    border:2px solid black;
+    margin: 20px;
+}
+
+.addshadow{
+    box-shadow: 3px 3px #999;
+    position:relative;
+    bottom:5px;
+}
+.paw{
+    border:2px solid black;
+}
+.pawtest{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,28 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+.top{
+    background-color:rgb(157, 191, 211);
+    display: flex;
+    justify-content: center;
+}
+.top-flex{
+    width:800px;
+    display: flex;
+    color:white;
+    background-color: rgb(157, 191, 211);
+    padding:15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.allcity{
+    list-style:none;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-large;
+}
+.allcity li{
+    margin-left:30px;
+}

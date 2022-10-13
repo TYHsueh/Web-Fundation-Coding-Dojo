@@ -1,0 +1,40 @@
+img{
+    height: 200px;
+}
+.container{
+    width:700px;
+    background-color: rgb(207, 206, 206);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+    color:rgb(119, 117, 117);
+    padding:20px;
+}
+.container1{
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    padding:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container2{
+    background-color: rgb(196, 172, 219);
+    margin-bottom: 20px;
+    padding:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container3{
+    background-color:white ;
+    margin-bottom: 20px;
+    padding:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container span{
+    color:aquamarine;
+    text-decoration: underline;
+}
